@@ -1,9 +1,13 @@
 # Predict Customer Personality to Boost Marketing Campaign
 
 **Tool** : Jupyter Notebook | Link Notebook[GitHub Pages](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/Predict%20Customer%20Personality.ipynb)
+
 **Programming Language** : Python
+
 **Libraries** : Pandas, NumPy, sklearn
+
 **Visualization** : Matplotlib, Seaborn, yellow-brick
+
 **Source Dataset** : Rakamin Academy
 
 **Table of Contents**
