@@ -9,9 +9,9 @@
 **Table of Contents**
 
 - [STAGE 0: Problem Statement](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning#-stage-0-problem-statement)
-  - Introduction
-  - Goal
-  - Objective
+  - [Introduction](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/tree/main#introduction)
+  - [Goal](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/tree/main#goal)
+  - [Objective](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/tree/main#objective)
 - STAGE 1: Data Preparation
   - Data Quality Asssessment
   - Feature Engineering
