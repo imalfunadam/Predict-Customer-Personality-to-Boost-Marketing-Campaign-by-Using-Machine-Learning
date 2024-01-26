@@ -4,7 +4,7 @@
 **Programming Language** : Python <br>
 **Libraries** : Pandas, NumPy, sklearn <br>
 **Visualization** : Matplotlib, Seaborn, yellow-brick<br>
-**Source Dataset** : Rakamin Academy<br>
+**Source Dataset** : Rakamin Academy
 
 **Table of Contents**
 
