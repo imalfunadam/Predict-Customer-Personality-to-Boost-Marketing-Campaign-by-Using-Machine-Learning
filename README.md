@@ -171,6 +171,6 @@ Setelah pre-processing data selesai, tahap berikutnya adalah menggunakan metode 
 <h5 style="text-align:center;">Gambar 3 — Plot Distortion Scoce Elbow</h5>
 
 Setelah menentukan jumlah cluster yang optimal, dilakukan **clustering menggunakan algoritma K-means.** Algoritma ini akan mengelompokkan data ke dalam cluster berdasarkan kesamaan fitur. Dengan melakukan clustering, dapat mengidentifikasi pola atau kelompok yang ada dalam data dan memahami karakteristik masing-masing cluster.
-![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%203%20—%20Plot%20Distortion%20Scoce%20Elbow.png)
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%204%20—%20Hasil%20Clustering%20menggunakan%20K-means.png)
 
 <h5 style="text-align:center;">Gambar 4 — Hasil Clustering menggunakan K-means</h5>
