@@ -252,7 +252,7 @@ Berdasarkan analisis yang telah dilakukan, dapat diidentifikasi personalitas ata
 
 Summary:
 
-- Populasi 12.61%.
+- Populasi 11.85%.
 - High-Transaction High-Spending Group.
 - Paling responsif terhadap campaign, dengan tingkat kunjungan website dan konversi ke pembelian sedang.
 
@@ -267,7 +267,7 @@ Perusaan dapat mingirimkan pesan yang dipersonalisasikan seperti info promo atau
 
 Summary :
 
-Populasi 13.42%.
+Populasi 13.97%.
 High-Income High-Conversion Group.
 Sama seperti High Customer B dalam segi income dan total spending, namun memiliki income paling tinggi.
 Tingkat konversi paling tinggi, respon terhadap campaign relatif sedang, kurang mengunjungi website secara aktif.
@@ -282,7 +282,7 @@ Mengingat pelanggan dalam kelompok High Customer B memiliki tingkat konversi yan
 
 Summmary:
 
-- Populasi 23.75%.
+- Populasi 23.97%.
 - Moderate-Transaction Moderate-Spending Group
 - Tingkat konversi, kunjungan website dan respon terhadap campaign relatif sedang.<br>
 
