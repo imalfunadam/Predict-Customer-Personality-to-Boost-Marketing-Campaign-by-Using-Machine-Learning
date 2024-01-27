@@ -140,7 +140,7 @@ Tabel 2 — Feature Engineering
 Pada tahap ini, dilakukan analisis konversi rate untuk mendapatkan wawasan tentang persentase pengunjung situs web dan tindakan yang dilakukan selama kunjungan mereka. Tujuan analisis ini adalah untuk melihat apakah tindakan pengunjung tersebut berujung pada transaksi pembelian atau tidak. Dengan demikian, perusahaan dapat memahami perilaku pengunjung dan mengidentifikasi peluang untuk meningkatkan tingkat konversi serta keberhasilan campaign pemasaran mereka.
 ![alt text](<https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%201%20—%20Plot%20Korelasi%20Conversion%20Rate%20(CVR)%20dengan%20Pendapatan%2C%20Total%20Pengeluaran%2C%20dan%20Usia.png>)
 
-<h5 style="text-align:center;">Gambar 1 — Plot Korelasi Conversion Rate (CVR) dengan Pendapatan, Total Pengeluaran, dan Usia</h5>
+<h5 align="center">Gambar 1 — Plot Korelasi Conversion Rate (CVR) dengan Pendapatan, Total Pengeluaran, dan Usia</h5>
 
 Terdapat temuan bahwa **pendapatan dan total spending memiliki korelasi positif yang signifikan terhadap tingkat konversi.** Hal ini menunjukkan bahwa **semakin tinggi pendapatan dan total spending seseorang, semakin besar kemungkinan mereka melakukan pembelian.** Faktor-faktor seperti kemampuan finansial yang lebih baik dan persepsi nilai yang tinggi terhadap produk dapat menjadi penyebab korelasi positif ini. Oleh karena itu, perusahaan dapat memanfaatkan temuan ini untuk mengoptimalkan strategi pemasaran mereka. Mereka dapat fokus pada target audiens dengan pendapatan dan total spending yang lebih tinggi, dengan tujuan meningkatkan peluang konversi dan keberhasilan marketing campaign secara keseluruhan. Di sisi lain, **fitur usia cenderung tidak memiliki korelasi yang signifikan terhadap tingkat konversi.** Hal ini berarti usia tidak menjadi faktor dominan yang mempengaruhi keputusan konsumen dalam melakukan konversi atau pembelian.
 
@@ -149,7 +149,7 @@ Terdapat temuan bahwa **pendapatan dan total spending memiliki korelasi positif 
 Analisis korelasi antara Income dan total spending penting dilakukan karena kedua fitur ini memiliki hubungan yang erat dalam konteks keuangan dan pengeluaran individu atau pelanggan. Dengan menganalisis korelasi antara kedua fitur ini, dapat dipahami sejauh mana tingkat pendapatan seseorang mempengaruhi pola pengeluaran mereka.
 ![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%202%20—%20Plot%20Korelasi%20Pendapatan%20dengan%20Total%20Pengeluaran.png)
 
-<h5 style="text-align:center;">Gambar 2 — Plot Korelasi Pendapatan dengan Total Pengeluaran</h5>
+<h5 align="center">Gambar 2 — Plot Korelasi Pendapatan dengan Total Pengeluaran</h5>
 
 Hubungan korelasi positif yang kuat antara Income dan total spending menunjukkan **adanya hubungan yang signifikan antara tingkat pendapatan seseorang dengan pola pengeluaran mereka.** Hal ini mengindikasikan bahwa **semakin tinggi pendapatan seseorang, kemungkinan besar mereka juga memiliki pengeluaran yang lebih tinggi.** Dalam konteks bisnis, pemahaman ini dapat membantu perusahaan dalam mengenali segmen pelanggan yang memiliki potensi pembelian yang lebih tinggi dan merancang strategi pemasaran yang tepat untuk meningkatkan keterlibatan dan kepuasan pelanggan.
 
@@ -168,9 +168,9 @@ Sebelum melakukan data modeling, terdapat beberapa tahap pre-processing data yan
 Setelah pre-processing data selesai, tahap berikutnya adalah menggunakan metode **Principal Component Analysis (PCA).** PCA digunakan untuk mengurangi dimensi data dengan mempertahankan informasi yang signifikan. Dengan mengurangi dimensi data, dapat mengoptimalkan kinerja model dan mengatasi masalah multicollinearity antara fitur. Selanjutnya, langkah penting dalam proses ini adalah menentukan jumlah cluster terbaik. Dalam analisis ini, **Distortion Score dan Elbow Method** digunakan untuk memilih jumlah cluster yang optimal. Berdasarkan hasil analisis, **jumlah cluster terbaik yang ditemukan adalah 4.**
 ![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%203%20—%20Plot%20Distortion%20Scoce%20Elbow.png)
 
-<h5 style="text-align:center;">Gambar 3 — Plot Distortion Scoce Elbow</h5>
+<h5 align="center">Gambar 3 — Plot Distortion Scoce Elbow</h5>
 
 Setelah menentukan jumlah cluster yang optimal, dilakukan **clustering menggunakan algoritma K-means.** Algoritma ini akan mengelompokkan data ke dalam cluster berdasarkan kesamaan fitur. Dengan melakukan clustering, dapat mengidentifikasi pola atau kelompok yang ada dalam data dan memahami karakteristik masing-masing cluster.
 ![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%204%20—%20Hasil%20Clustering%20menggunakan%20K-means.png)
 
-<h5 style="text-align:center;">Gambar 4 — Hasil Clustering menggunakan K-means</h5>
+<h5 align="center">Gambar 4 — Hasil Clustering menggunakan K-means</h5>
