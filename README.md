@@ -114,5 +114,5 @@ Dataset memiliki 2240 baris dan 30 fitur. Asesmen data dilakukan untuk memastika
   | --- | --- | --- |
   | Missing values | Tidak terdapat missing value | - |
   | Duplikat | Tidak terdapat duplikat data | - |
-  | Fitur atau nilai yang tidak sesuai | TTipe data Dt_Customer sebaikkanya datettime | Mengubah tipe data menjadi datteime |
-  | Anomali atau outlier | Secara keseluruhan fitur memiliki outlier. Terlihat juga fitur Income dan Year_Birth memiliki nilai yang ekstrim | Handling outlier menggunakan IQR. |
+  | Fitur atau nilai yang tidak sesuai | TTipe data `Dt_Customer` sebaikkanya datettime | Mengubah tipe data menjadi datteime |
+  | Anomali atau outlier | Secara keseluruhan fitur memiliki outlier. Terlihat juga fitur `Income` dan `Year_Birth` memiliki nilai yang ekstrim | Handling outlier menggunakan IQR. |
