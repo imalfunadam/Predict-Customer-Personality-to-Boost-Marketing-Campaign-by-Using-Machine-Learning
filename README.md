@@ -117,3 +117,24 @@ Dataset memiliki 2240 baris dan 30 fitur. Asesmen data dilakukan untuk memastika
   | Duplikat | Tidak terdapat duplikat data | - |
   | Fitur atau nilai yang tidak sesuai | TTipe data `Dt_Customer` sebaikkanya datettime | Mengubah tipe data menjadi datteime |
   | Anomali atau outlier | Secara keseluruhan fitur memiliki outlier. Terlihat juga fitur `Income` dan `Year_Birth` memiliki nilai yang ekstrim | Handling outlier menggunakan IQR. |
+
+### Feature Engineering
+
+Pada tahap feature engineering, dilakukan pembuatan feature baru berdasarkan feature yang sudah ada dengan tujuan untuk membuat analisis menjadi lebih insightful. Feature baru ini dapat mengungkap informasi tambahan atau menggabungkan beberapa fitur yang saling berhubungan untuk membentuk fitur yang lebih kuat.
+
+Tabel 2 — Feature Engineering
+| New Feature | Source |
+| --- | --- |
+| Membership Duration | 2023 - Dt_Customer |
+| Age_Categories | age |
+| Total_Children | Kidhome + Teenhome |
+| Total_Transaction | NumDealsPurchases + NumWebPurchases + NumCatalogPurchases + NumStorePurchases |
+| Total_Spending | MntCoke + MntFruits + MntMeatProducts + MntFishProducts + MntSweet |
+| Total_Accepted_Campaign | AcceptedCmp1 + AcceptedCmp2 + AcceptedCmp3 + AcceptedCmp4 + AcceptedCmp5 |
+| CVR | Total_Transaction x NumWebVisitsMonth/100 |
+
+## 📂 STAGE 2: Data Exploration
+
+### Conversion Rate by Income, Spending, and Age
+
+Pada tahap ini, dilakukan analisis konversi rate untuk mendapatkan wawasan tentang persentase pengunjung situs web dan tindakan yang dilakukan selama kunjungan mereka. Tujuan analisis ini adalah untuk melihat apakah tindakan pengunjung tersebut berujung pada transaksi pembelian atau tidak. Dengan demikian, perusahaan dapat memahami perilaku pengunjung dan mengidentifikasi peluang untuk meningkatkan tingkat konversi serta keberhasilan campaign pemasaran mereka.
