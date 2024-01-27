@@ -138,4 +138,4 @@ Tabel 2 — Feature Engineering
 ### Conversion Rate by Income, Spending, and Age
 
 Pada tahap ini, dilakukan analisis konversi rate untuk mendapatkan wawasan tentang persentase pengunjung situs web dan tindakan yang dilakukan selama kunjungan mereka. Tujuan analisis ini adalah untuk melihat apakah tindakan pengunjung tersebut berujung pada transaksi pembelian atau tidak. Dengan demikian, perusahaan dapat memahami perilaku pengunjung dan mengidentifikasi peluang untuk meningkatkan tingkat konversi serta keberhasilan campaign pemasaran mereka.
-![alt text](http://url/to/img.png)
+![alt text](<https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%201%20—%20Plot%20Korelasi%20Conversion%20Rate%20(CVR)%20dengan%20Pendapatan%2C%20Total%20Pengeluaran%2C%20dan%20Usia.png>)
