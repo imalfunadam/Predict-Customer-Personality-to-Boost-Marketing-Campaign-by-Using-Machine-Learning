@@ -174,3 +174,11 @@ Setelah menentukan jumlah cluster yang optimal, dilakukan **clustering menggunak
 ![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%204%20—%20Hasil%20Clustering%20menggunakan%20K-means.png)
 
 <h5 align="center">Gambar 4 — Hasil Clustering menggunakan K-means</h5>
+
+Dari plot hasil pemodelan dan pengelompokan data menggunakan metode clustering, terlihat bahwa **cluster-cluster yang terbentuk terpisah dengan baik** dan mengelompokkan data ke dalam kelompok yang berbeda-beda. Hal ini menunjukkan bahwa algoritma clustering yang digunakan berhasil dalam membedakan dan menggolongkan data berdasarkan karakteristik yang dimiliki.
+
+### Evaluation
+
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%203%20—%20Plot%20Distortion%20Scoce%20Elbow.png)
+
+<h5 align="center">Gambar 5 — Hasil Evaluas</h5>
