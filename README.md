@@ -147,4 +147,4 @@ Terdapat temuan bahwa **pendapatan dan total spending memiliki korelasi positif 
 ### Income and Total Spending
 
 Analisis korelasi antara Income dan total spending penting dilakukan karena kedua fitur ini memiliki hubungan yang erat dalam konteks keuangan dan pengeluaran individu atau pelanggan. Dengan menganalisis korelasi antara kedua fitur ini, dapat dipahami sejauh mana tingkat pendapatan seseorang mempengaruhi pola pengeluaran mereka.
-![alt text](<https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%201%20—%20Plot%20Korelasi%20Conversion%20Rate%20(CVR)%20dengan%20Pendapatan%2C%20Total%20Pengeluaran%2C%20dan%20Usia.png>)
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%202%20—%20Plot%20Korelasi%20Pendapatan%20dengan%20Total%20Pengeluaran.png)
