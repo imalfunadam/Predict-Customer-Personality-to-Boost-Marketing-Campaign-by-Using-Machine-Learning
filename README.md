@@ -108,7 +108,8 @@ Dataset memiliki 2240 baris dan 30 fitur. Asesmen data dilakukan untuk memastika
 - Memeriksa missing value pada data
 - Memeriksa duplikasi data
 - Memeriksa tipe dan konsistensi nilai
-- Memeriksa outlier atau data yang tidak biasa (anomali)<br>
+- Memeriksa outlier atau data yang tidak biasa (anomali)
+
   Tabel 1 — Hasil Data Quality Assessment
   | Data Assessment | Finding | Cleaning |
   | --- | --- | --- |
