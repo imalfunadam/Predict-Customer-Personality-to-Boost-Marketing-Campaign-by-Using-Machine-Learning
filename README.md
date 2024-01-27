@@ -98,3 +98,21 @@ Secara keseluruhan, analisis profil dan perilaku pelanggan dengan pendekatan clu
 - Membuat model mechine learning yang dapat mengelompokkan pelanggan ke dalam segmen-segmen yang berbeda berdasarkan karakteristik atau perilaku mereka.
 - Mengekstraksi insight yang lebih mendalam tentang profil dan perilaku pelanggan.
 - Menentukan strategi bisnis yang efektif dari hasil clustering.
+
+## 📂 STAGE 1: Data Preparation
+
+### Data Quality Asssessment
+
+Dataset memiliki 2240 baris dan 30 fitur. Asesmen data dilakukan untuk memastikan bahwa data yang digunakan untuk analisis selanjutnya sudah siap dan sesuai dengan kebutuhan analisis. Hal yang dilakukan:
+
+- Memeriksa missing value pada data
+- Memeriksa duplikasi data
+- Memeriksa tipe dan konsistensi nilai
+- Memeriksa outlier atau data yang tidak biasa (anomali)
+  Tabel 1 — Hasil Data Quality Assessment
+  | Data Assessment | Finding | Cleaning |
+  | --- | --- | --- |
+  | Missing values | Tidak terdapat missing value | - |
+  | `Duplikat` | Tidak terdapat duplikat data | - |
+  | Fitur atau nilai yang tidak sesuai | TTipe data Dt_Customer sebaikkanya datettime | Mengubah tipe data menjadi datteime |
+  | `DAnomali atau outlier` | Secara keseluruhan fitur memiliki outlier. Terlihat juga fitur Income dan Year_Birth memiliki nilai yang ekstrim | Handling outlier menggunakan IQR. |
