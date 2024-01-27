@@ -192,4 +192,116 @@ Customer Personality Analysis bertujuan untuk **memahami perbedaan dan kesamaan 
 
 <h5 align="center">Gambar 6 — Plot Pendapatan dan Total Pengeluaran Berdasarkan Cluster</h5>
 
-Berdasarkan plot korelasi antara pendapatan (Income) dan total pengeluaran (Total Spending), terlihat bahwa terdapat pembentukan cluster atau kelompok yang dapat dibedakan. Dalam hal ini, cluster 1 dan 3 cenderung berada dalam satu kelompok yang menunjukkan adanya persamaan dan perbedaan karakteristik di antara kedua cluster tersebut. Ketika dua cluster berada dalam satu kelompok, hal ini mengindikasikan bahwa terdapat kemiripan atau keterkaitan dalam pola pendapatan dan pengeluaran di antara anggota-anggota cluster tersebut. Secara visual, terlihat bahwa kedua cluster tersebut mungkin memiliki tingkat pendapatan dan pengeluaran yang relatif mirip atau memiliki tren yang serupa.
+Berdasarkan plot korelasi antara pendapatan (Income) dan total pengeluaran (Total Spending), terlihat bahwa terdapat pembentukan cluster atau kelompok yang dapat dibedakan. Dalam hal ini, **cluster 1 dan 3 cenderung berada dalam satu kelompok yang menunjukkan adanya persamaan dan perbedaan karakteristik di antara kedua cluster tersebut.** Ketika dua cluster berada dalam satu kelompok, hal ini mengindikasikan bahwa terdapat kemiripan atau keterkaitan dalam pola pendapatan dan pengeluaran di antara anggota-anggota cluster tersebut. Secara visual, terlihat bahwa **kedua cluster tersebut mungkin memiliki tingkat pendapatan dan pengeluaran yang relatif mirip atau memiliki tren yang serupa.**
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%207.png)
+
+<h5 align="center">Gambar 7 — Plot Karakteristik Mayoritas/Rata-rata Total Transaksi, Pengeluaran, Pendapatan, Recency, dan Conversion Rate Berdasarkan Cluster</h5>
+
+Berdasarkan hasil analisis yang lebih mendalam dapat diketahui karakteristik rata-rata/mayoritas dari setiap cluster berdasarkan pola transaksi pelanggan dan dapat dikelompokkan berdasarkan beberapa kategori.
+
+- Cluster 0
+
+  - Angka transaksi dan spending teredndah yaitu mayoritas 7 transaksi dan Rp.58.000 perbulan
+  - Pendapatan terendah, mayoritas Rp.33.297.500/tahun
+  - CConversion terendah, yaitu 1%
+  - Kategori : **"Low-Transaction Low-Spending Group" - Low Customer**
+
+- Cluster 1
+
+  - Angka transaksi dan spending terendah yaitu mayoritas hanya 7 transaksi dan Rp.58.000/bulan
+  - Pendapatan terendah, mayoritas Rp.33.297.500/tahun
+  - Conversion terendah, yaitu 1%
+  - Kategori : **"High-Transaction High-Spending Group" - High Customer A**
+
+- Cluster 2
+
+  - Angka transaksi dan spending cukup tinggi yaitu mayoritas 20 transaksi dan Rp.1.040.000/bulan
+  - Pendapatan tertinggi, mayoritas Rp.71.488.000/tahun
+  - Conversion rate tertinggi, yaitu 8%
+  - Kategori : **"High-Income High-Conversion Group" - High Customer B**
+
+- Cluster 3
+  - Angka transaksi dan spending sedang yaitu mayoritas 17 transaksi dan Rp.434.000/bulan
+  - Pendapatan cukup sedang, mayoritas Rp.52.597.000/tahun
+  - Conversion rate cukup sedang, yaitu 3%
+  - Kategori : **"Moderate-Transaction Moderate-Spending Group" - Moderate Customer**
+
+Analisis distribusi beberapa fitur masing-masing cluster dilakukan juga dilakukan untuk mendapatkan wawasan yang lebih dalam. Melalui analisis ini, ditemukan beberapa insight menarik yang dapat memberikan pemahaman yang lebih baik tentang perilaku pengguna dalam setiap cluster, khususnya terkait kunjungan website dan respon terhadap campaign.
+
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%208.png)
+
+<h5 align="center">Gambar 8 — Plot Distribusi Berdasarkan Cluster</h5>
+
+Berikut temuan yang menarik:
+
+- Low Customer (Cluster 1) yang memiliki distribusi jumlah kunjungan website yang tinggi, namun memiliki total acceptance campaign yang rendah. Ini menunjukkan bahwa kelompok ini sangat sering mengunjungi website perusahaan, tetapi tidak sepenuhnya menyadari atau tidak responsif terhadap campaign yang ditawarkan. Mengingat kelompok ini memiliki populasi yang paling banyak, perusahaan perlu mengembangkan strategi yang tepat untuk menarik perhatian dan meningkatkan keterlibatan mereka.
+- Cluster yang paling banyak merespon campaign adalah High Customer A (Cluster 0) dengan tingkat konversi yang sedang. Ini menunjukkan bahwa mayoritas pelanggan dalam kelompok ini sangat responsif terhadap campaign yang ditawarkan oleh perusahaan. Hal ini dapat menjadi kesempatan yang baik untuk meningkatkan interaksi dan pembelian dari kelompok ini dengan meluncurkan campaign yang lebih menarik dan relevan sesuai dengan preferensi mereka.
+- High Customer B (Cluster 2), mayoritas pelanggannya tidak terlalu sering mengunjungi website perusahaan, namun memiliki distribusi konversi rate yang lebih tinggi dengan respon campaign yang sedang. Fenomena ini menunjukkan bahwa kelompok ini memiliki kecenderungan pengeluaran yang tinggi dan cenderung merespons positif terhadap campaign yang ditawarkan, meskipun mereka tidak begitu aktif dalam kunjungan ke website. Perusahaan dapat memanfaatkan informasi ini dengan mengoptimalkan saluran komunikasi lain seperti email, media sosial, atau platform online lainnya untuk efektif menjangkau kelompok ini.
+
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%209.png)
+
+<h5 align="center">Gambar 9 — Plot Presentase Populasi Cluster</h5>
+
+Berdasarkan persentase populasi masing-masing cluster, ditemukan bahwa **50.22% dari keseluruhan pelanggan termasuk dalam kelompok Low Customer (Cluster 0).** Meskipun kelompok ini memiliki angka transaksi dan pengeluaran yang rendah, namun karena populasi mereka yang besar. Perusahaan dapat fokus untuk menarik perhatian mereka. Sedangkan populasi **High Customer A (Cluster 1) dan B (Cluster 2) cenderung rendah,** namun memiliki potensi transaksi dan spending yang tinggi. Perusahaan dapat mempertimbangkan strategi pemasaran yang lebih personal dan eksklusif untuk menarik minat mereka.
+
+## 📂 STAGE 5: Business Recommendation
+
+Berdasarkan analisis yang telah dilakukan, dapat diidentifikasi personalitas atau karakteristik pelanggan berdasarkan cluster yang terbentuk. Mengetahui karakteristik ini sangat berharga dalam merancang strategi pemasaran yang lebih efektif. Dengan memahami preferensi, kebutuhan, dan perilaku konsumen dalam setiap cluster, perusahaan dapat menghasilkan campaign yang lebih relevan dan menarik bagi setiap kelompok pelanggan.
+
+### High Customer A
+
+Summary:
+
+- Populasi 12.61%.
+- High-Transaction High-Spending Group.
+- Paling responsif terhadap campaign, dengan tingkat kunjungan website dan konversi ke pembelian sedang.
+
+  Rekomendasi:<br>
+
+Mengingat kelompok High Customer A cenderung memiliki total transaksi dan total spending yang tinggi, perusahaan dapat memberikan penawaran khusus dan insentif tambahan untuk mendorong pelanggan melakukan pembelian secara terus-menerus. Perusahaan dapat menerapkan program diskon eksklusif, hadiah loyalitas, atau akses ke produk atau layanan khusus untuk kelompok ini.
+Perusahaan dapat meningkatkan kualitas pengalaman pengguna dalam berselancar di website, mengingat tingkat kunjungan website yang sedang. Perusahaan dapat memastikan tampilan yang menarik, customer journey yang efisien, dan lain sebagainya.
+Mengingat kelompok High Customer A sangat responsif terhadap campaign, memanfaatkan kepuasan mereka dengan memperkenalkan program referral dapat menjadi strategi yang efektif. Memberikan insentif kepada pelanggan untuk merekomendasikan produk atau layanan perusahaan kepada teman dan keluarga dapat membantu dalam memperluas jangkauan dan memperoleh pelanggan baru.
+Perusaan dapat mingirimkan pesan yang dipersonalisasikan seperti info promo atau diskon berdasarkan preferensi kelompok ini. Hal ini dilakukan untuk menjaga loyalitas pelanggan.
+
+### High Customer B
+
+Summary :
+
+Populasi 13.42%.
+High-Income High-Conversion Group.
+Sama seperti High Customer B dalam segi income dan total spending, namun memiliki income paling tinggi.
+Tingkat konversi paling tinggi, respon terhadap campaign relatif sedang, kurang mengunjungi website secara aktif.
+Rekomendasi:
+
+Sama halnya dengan High Customer A, perusahaan dapat memberikan penawaran khusus seperti diskon, program loyalti, dan sebagainya agar pelanggan selalu tertarik untuk berbelanja terus menerus.
+Mengingat kelompok ini kurang aktif dalam kunjungan website, perusahaan dapat memanfaatkan saluran komunikasi alternatif untuk campaign seperti email, pesan teks, atau media sosial. Hal ini dapat membantu meningkatkan interaksi dan kesadaran pelanggan.
+Untuk meningkatkan respon pelanggan terhadap campaign, perusahaan dapat memberikan campaign-campaign yang tertarget sesuai dengan preverensi dan kebutuhan pelanggan.
+Mengingat pelanggan dalam kelompok High Customer B memiliki tingkat konversi yang tinggi, perusahaan dapat mempertimbangkan untuk meluncurkan program loyalitas yang memberikan insentif tambahan, penghargaan khusus, atau akses ke acara atau produk eksklusif dapat memperkuat loyalitas pelanggan.
+
+### Moderate Customer
+
+Summmary:
+
+- Populasi 23.75%.
+- Moderate-Transaction Moderate-Spending Group
+- Tingkat konversi, kunjungan website dan respon terhadap campaign relatif sedang.<br>
+
+  Rekomendasi:
+
+- Perusahaan dapat memberikan penawaran khusus dan diskon untuk mendorong pembelian lebih lanjut. Hal ini dapat memberikan insentif tambahan kepada pelanggan dalam kelompok ini untuk memilih produk atau layanan perusahaan dibandingkan dengan pesaing.
+- Perusahaan dapat mengirim pesan yang relevan dan menarik kepada pelanggan untuk melakukan transaksi.
+- Memastikan pengalaman pengguna yang baik saat mengunjungi website atau berinteraksi dengan produk atau layanan perusahaan.
+- Membangun program hadiah atau loyalitas dapat membantu memperkuat keterikatan pelanggan. Seperti dengan memberikan poin, penghargaan, atau manfaat khusus kepada pelanggan setia, perusahaan dapat mendorong mereka untuk terus memilih dan membeli produk atau layanan perusahaan.
+
+### Low Customer
+
+Summary:
+
+- Populasi 50.22%, pelanggan didominasi oleh kategori ini.
+- Low-Transaction Low-Spending Group.
+- Tingkat konversi paling rendah, cenderung tidak merespon campaign, namun kategori ini paling sering mengunjungi website.<br>
+  Rekomendasi:
+
+- Mengingat kelompok Low Customer sering mengunjungi website, perusahaan dapat memanfaatkan informasi kunjungan website untuk menyajikan konten yang personalisasi dan penawaran khusus yang sesuai dengan minat dan preferensi mereka.
+- Perusahaan dapat melakukan retargeting campaign dengan mengingatkan pelanggan dalam kelompok ini tentang produk atau layanan yang mereka telah kunjungi di website. Dengan menampilkan iklan yang disesuaikan di berbagai platform digital yang mereka gunakan, perusahaan dapat membangun kesadaran dan mendorong mereka untuk melanjutkan proses pembelian.
+- Mengingat kelompok Low Customer memiliki tingkat konversi yang rendah dan cenderung tidak merespon campaign dengan baik, perusahaan dapat menggunakan strategi konten yang lebih fokus pada edukasi dan informasi (softselling). Memberikan konten yang memberikan nilai tambah, memberikan solusi untuk masalah atau kebutuhan pelanggan, dan membantu mereka membuat keputusan yang lebih informatif dapat meningkatkan keterlibatan dan kepercayaan pelanggan dalam kelompok ini.
