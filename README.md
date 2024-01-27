@@ -148,3 +148,22 @@ Terdapat temuan bahwa **pendapatan dan total spending memiliki korelasi positif 
 
 Analisis korelasi antara Income dan total spending penting dilakukan karena kedua fitur ini memiliki hubungan yang erat dalam konteks keuangan dan pengeluaran individu atau pelanggan. Dengan menganalisis korelasi antara kedua fitur ini, dapat dipahami sejauh mana tingkat pendapatan seseorang mempengaruhi pola pengeluaran mereka.
 ![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%202%20—%20Plot%20Korelasi%20Pendapatan%20dengan%20Total%20Pengeluaran.png)
+
+<h5 style="text-align:center;">Gambar 2 — Plot Korelasi Pendapatan dengan Total Pengeluaran</h5>
+
+Hubungan korelasi positif yang kuat antara Income dan total spending menunjukkan **adanya hubungan yang signifikan antara tingkat pendapatan seseorang dengan pola pengeluaran mereka.** Hal ini mengindikasikan bahwa **semakin tinggi pendapatan seseorang, kemungkinan besar mereka juga memiliki pengeluaran yang lebih tinggi.** Dalam konteks bisnis, pemahaman ini dapat membantu perusahaan dalam mengenali segmen pelanggan yang memiliki potensi pembelian yang lebih tinggi dan merancang strategi pemasaran yang tepat untuk meningkatkan keterlibatan dan kepuasan pelanggan.
+
+## 📂 STAGE 3: Data Modeling with K-Means Clustering
+
+### Pre-processing
+
+Sebelum melakukan data modeling, terdapat beberapa tahap pre-processing data yang perlu dilakukan yaitu:
+
+- Fitur yang tidak diperlukan untuk model akan dihapus agar data lebih terfokus.
+- Fitur kategorikal akan di-encoding agar dapat diolah oleh algoritma machine learning.
+- Dilakukan standardisasi fitur untuk memastikan skala data seragam dan menghindari bias dalam model.
+
+### Modeling
+
+Setelah pre-processing data selesai, tahap berikutnya adalah menggunakan metode **Principal Component Analysis (PCA).** PCA digunakan untuk mengurangi dimensi data dengan mempertahankan informasi yang signifikan. Dengan mengurangi dimensi data, dapat mengoptimalkan kinerja model dan mengatasi masalah multicollinearity antara fitur. Selanjutnya, langkah penting dalam proses ini adalah menentukan jumlah cluster terbaik. Dalam analisis ini, **Distortion Score dan Elbow Method** digunakan untuk memilih jumlah cluster yang optimal. Berdasarkan hasil analisis, **jumlah cluster terbaik yang ditemukan adalah 4.**
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%202%20—%20Plot%20Korelasi%20Pendapatan%20dengan%20Total%20Pengeluaran.png)
