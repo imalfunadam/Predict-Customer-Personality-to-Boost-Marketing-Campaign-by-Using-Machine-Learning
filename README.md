@@ -179,6 +179,6 @@ Dari plot hasil pemodelan dan pengelompokan data menggunakan metode clustering, 
 
 ### Evaluation
 
-![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%203%20—%20Plot%20Distortion%20Scoce%20Elbow.png)
+![alt text](https://github.com/imalfunadam/Predict-Customer-Personality-to-Boost-Marketing-Campaign-by-Using-Machine-Learning/blob/main/assets/Gambar%205%20—%20Hasil%20Evaluasi.png)
 
-<h5 align="center">Gambar 5 — Hasil Evaluas</h5>
+<h5 align="center">Gambar 5 — Hasil Evaluasi</h5>
